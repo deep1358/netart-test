@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header > img {
+  width: 500px;
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+@media (max-width: 550px) {
+  header > img {
+    width: 80%;
+  }
+}

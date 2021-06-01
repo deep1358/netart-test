@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Slab:wght@700;900&display=swap");
+
+.awards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.awards > section:first-child {
+  flex: 0.35;
+}
+.awards > section:first-child > img {
+  width: 88%;
+  padding-right: 0.5rem;
+  display: block;
+  margin: 0 auto;
+}
+.awards > section:nth-child(2) {
+  flex: 0.62;
+  padding: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.awards > section:nth-child(2) > img {
+  width: 100%;
+}
+.awards > section:nth-child(2) > p:first-child {
+  font-weight: 900;
+  font-family: "Roboto Slab", serif;
+}
+.awards > section:nth-child(2) > ul {
+  font-weight: 700;
+  margin-left: 3rem;
+  font-family: "Lora", serif;
+  line-height: 1.3rem;
+}
+.awards > section:nth-child(2) > p:last-child {
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  margin-top: 1rem;
+}
+@media (max-width: 950px) {
+  .awards {
+    flex-direction: column-reverse;
+  }
+  .awards > section:first-child > img {
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .awards > section:nth-child(2) > ul {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+  .awards > section:nth-child(2) > p {
+    font-size: 0.8rem;
+  }
+}

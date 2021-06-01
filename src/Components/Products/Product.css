@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Slab:wght@700;900&display=swap");
+
+.products {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+.products > p {
+  font-weight: 900;
+  font-family: "Roboto Slab", serif;
+}
+.products > div > p {
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 0.5px;
+  padding: 0px 4px;
+  border-right: 3px solid red;
+  display: inline-block;
+  margin: 2px;
+}
+.products > div > p:last-child {
+  border: none;
+}
+@media (max-width: 420px) {
+  .products > p {
+    font-size: 0.95rem;
+  }
+  .products > div > p {
+    font-size: 0.8rem;
+  }
+}

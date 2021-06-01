@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto+Slab:wght@700;900&display=swap");
+
+.pumps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 1.5rem;
+  border-bottom: 3px solid #b5262a;
+}
+.pumps > p:first-child {
+  font-weight: 700;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+}
+.pumps > p:last-child {
+  display: block;
+  margin: 1rem auto;
+  font-weight: 700;
+  font-family: "Lora", serif;
+}
+.pumps > img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .pumps > img {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .pumps > p:first-child {
+    font-size: 0.8rem;
+  }
+  .pumps > p:last-child {
+    font-size: 0.8rem;
+  }
+}
