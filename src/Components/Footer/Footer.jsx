@@ -12,11 +12,19 @@ const Footer = () => {
       </div>
       <div>
         <img src="./assets/fb.png" alt="fb" />
-        <p>www.facebook.com/cripumps</p>
+        <p>
+          <a target="blank" href="https://facebook.com/cripumps">
+            www.facebook.com/cripumps
+          </a>
+        </p>
       </div>
       <div>
         <img src="./assets/globe.png" alt="globe" />
-        <p>www.crigroups.com</p>
+        <p>
+          <a target="blank" href="https://crigroups.com">
+            www.crigroups.com
+          </a>
+        </p>
       </div>
     </footer>
   );

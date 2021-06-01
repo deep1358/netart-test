@@ -16,13 +16,26 @@ footer > div {
   align-items: center;
   justify-content: center;
 }
-footer > div > p {
+footer > div > p > a {
   color: white;
   font-family: "Roboto Slab", serif;
+
+  text-decoration: none;
+}
+footer > div > p {
   margin: 0;
   margin-left: 5px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+}
+footer > div > p > a:hover {
+  text-decoration: none;
+  color: white;
 }
 @media (max-width: 400px) {
+  footer > div > p > a {
+    font-size: 0.9rem;
+  }
   footer > div > p {
     font-size: 0.9rem;
   }
